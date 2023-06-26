@@ -1,0 +1,68 @@
+html, body{
+    height:100% ;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height :1.6em;
+    color: #666;
+}
+.sec1{
+    background-image: url("image1.png");
+    min-height: 100% ;
+}
+.sec2{
+    background-image: url("image2.png");
+    min-height: 400px ;
+}
+.sec3{
+    background-image: url("image3.png");
+    min-height: 400px;
+}
+.sec1 , .sec2 , .sec3 {
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* for parallax website */ 
+}
+.sec1text{
+    position: absolute;
+    top: 50%;
+    left:39%;
+    text-align: center;
+    padding:15px;
+    color:white;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-size:30px;
+    border-radius: 5px;
+    border:1px solid black;
+    background-color: rgb(44, 38, 38);
+}
+.sec3text{
+    position: absolute;
+    top: 50%;
+    left:30%;
+    text-align: center;
+    padding:15px;
+    color:white;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-size:30px;
+    border-radius: 5px;
+    border:1px solid black;
+    background-color: rgb(44, 38, 38);
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.sec1_light , .sec3_light {
+    background: #ddd;
+    color: #282e34;
+}
+.sec2_dark{
+    background: #282e34;
+    color: #ddd;
+}
